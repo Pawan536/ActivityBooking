@@ -7,18 +7,17 @@ The Activity Booking App is a RESTful API developed using Node.js, Express.js, a
 🎯 List Available Activities (public)
 📝 Book Activities (authorized users)
 📋 View My Bookings (authorized users)
+
 🛠️ Tech Stack
 Node.js
 Express.js
 MongoDB & Mongoose
 JSON Web Tokens (JWT)
 Postman (for API testing)
-📬 API Endpoints
 
+📬 API Endpoints
 Auth POST /api/auth/register – Register a new user
 POST /api/auth/login – Login and get a token
-
 Activities GET /api/activities – List all activities (public)
 POST /api/activities/book/:id – Book an activity (protected)
-
 GET /api/activities/my-bookings – View my bookings (protected)
